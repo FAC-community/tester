@@ -1,6 +1,12 @@
 # Pong: A Step-by-Step Guide
 
-This guide will take you through the steps to create a simple version of the classic game, [Pong](https://en.wikipedia.org/wiki/Pong), using HTML, CSS, and JavaScript. You will need to create your own repo and add empty `index.html`, `styles.css`, and `script.js` files to it. It is very good practice to re-type the code snippets below, instead of copy and pasting, in order to aid your recollection. 
+This guide will take you through the steps to create a simple version of the classic game, [Pong](https://en.wikipedia.org/wiki/Pong), using HTML, CSS, and JavaScript.
+
+Notes: 
+1. You will need to create your own repo and add empty `index.html`, `styles.css`, and `script.js` files to it.
+2. It is very good practice to re-type the code snippets below, instead of copy and pasting, in order to aid your recollection.
+3. Remember to preview your HTML page in your code editor; to commit your code after each step; and to publish to GitHub Pages.
+
 
 * * *
 
