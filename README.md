@@ -1,6 +1,6 @@
 # Pong: A Step-by-Step Guide
 
-This guide will take you through the steps to create a simple version of the classic game, [Pong](https://en.wikipedia.org/wiki/Pong), using HTML, CSS, and JavaScript.
+This guide will take you through the steps to create a simple version of the classic game, [Pong](https://en.wikipedia.org/wiki/Pong), using HTML, CSS, and JavaScript. You will need to create your own repo and add empty `index.html`, `styles.css`, and `script.js` files to it. It is very good practice to re-type the code snippets below, instead of copy and pasting, in order to aid your recollection. 
 
 * * *
 
@@ -407,13 +407,18 @@ function moveBall(
 
 ### **Step 12: Detect Collisions**
 
-Detect and handle collisions with the walls and paddles:
+Detect and handle collisions with the walls and paddles.
+
+Detecting collisions is probably the trickiest step. We have added comments `//` to the first `if` statement. Try to work out what the other `if` statement are doing before re-typing this code snippet into your own script file.
 
 ```javascript
 
 function detectCollision(
 ) {
+    // Check if the ball hits the top or bottom of the canvas
     if (ball.y - ball.size < 0 || ball.y + ball.size > canvas.height) {
+
+        // Reverse the vertical direction of the ball
         ball.dy *= -1;
     }
 
