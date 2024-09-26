@@ -54,13 +54,16 @@ The `<canvas>` element is where the game will be rendered.
 4.  What is the primary purpose of the `<canvas>` element?
 5.  Where in the HTML structure is JavaScript typically linked?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It ensures the browser renders the page in standards mode, using the correct HTML version.
 2.  It contains metadata, such as the document's title, character encoding, and links to stylesheets or scripts.
 3.  Using the `<link>` element with the `rel="stylesheet"` attribute.
 4.  To provide an area for drawing graphics via JavaScript.
 5.  Inside the `<body>` or `<head>` using the `<script>` tag.
+</details>
+
 
 * * *
 
@@ -94,13 +97,15 @@ In `styles.css`, add the following code to style the canvas with a black backgro
 4.  Which property would you use to add a border around an element?
 5.  How can you center an element horizontally using CSS?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It represents an ID selector, targeting an element with a specific `id` attribute.
 2.  Using the `background-color` property.
 3.  It makes the element occupy the full width of its container and start on a new line.
 4.  The `border` property.
 5.  By using `margin: 0 auto`.
+</details>
 
 * * *
 
@@ -124,10 +129,12 @@ const ctx = canvas.getContext('2d');
 1.  How do you select an HTML element by its ID in JavaScript?
 2.  What does `getContext('2d')` do?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  By using `document.getElementById('id')`.
 2.  It initializes a 2D drawing context on the canvas element.
+</details>
 
 * * *
 
@@ -158,10 +165,12 @@ const player = {
 1.  What is an object in JavaScript?
 2.  How are properties used within an object?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  An object is a data structure that stores related properties and methods.
 2.  Properties are used to define characteristics or attributes of the object.
+</details>
 
 * * *
 
@@ -187,10 +196,12 @@ function drawPaddle(paddle) {
 1.  What is the purpose of `fillStyle` in canvas drawing?
 2.  How do you draw a filled rectangle on a canvas?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It sets the color used to fill shapes.
 2.  By using the `fillRect()` method.
+</details>
 
 * * *
 
@@ -225,10 +236,12 @@ const ball = {
 1.  What does `size` represent in this context?
 2.  How would you describe `dx` and `dy` in programming terms?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It represents the size (radius) of the ball.
 2.  They indicate how much the position changes along the x-axis (`dx`) and y-axis (`dy`).
+</details>
 
 * * *
 
@@ -260,11 +273,13 @@ function drawBall(ball) {
 2.  How would you draw a circle on a canvas?
 3.  What does `fill()` do in canvas drawing?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It starts a new path for drawing on the canvas.
 2.  By using the `arc()` method with appropriate parameters.
 3.  It fills the current drawing path with the specified color.
+</details>
 
 * * *
 
@@ -304,11 +319,13 @@ document.addEventListener('keyup', (e) => {
 2.  What are `keydown` and `keyup` events used for?
 3.  How can you identify which key was pressed?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  By using the `addEventListener()` method.
 2.  They detect when a key is pressed (`keydown`) or released (`keyup`).
 3.  By accessing the `e.key` property within the event handler.
+</details>
 
 * * *
 
@@ -339,10 +356,12 @@ function movePaddle(
 1.  What is an `if` statement used for?
 2.  How does the `&&` operator work?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  An `if` statement executes code only if a specified condition is true.
 2.  The `&&` operator checks if both conditions are true before executing a code block.
+</details>
 
 * * *
 
@@ -375,10 +394,12 @@ function moveAI(
 1.  When is an `else` statement executed?
 2.  What is the purpose of comparison operators like `<` and `>`?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  When the preceding `if` condition is false.
 2.  To compare two values and determine their relationship (e.g., less than, greater than).
+</details>
 
 * * *
 
@@ -404,10 +425,12 @@ function moveBall(
 1.  What does the `+=` operator do in JavaScript?
 2.  How would you increment a variable by a specific amount?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It adds a value to the existing variable and updates the variable with the result.
 2.  By using the `+=` operator.
+</details>
 
 * * *
 
@@ -462,10 +485,12 @@ function detectCollision(
 1.  How does the `||` operator function?
 2.  What does the `*=` operator do?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It checks if at least one of the conditions is true.
 2.  It multiplies the variable by a given value and updates the variable with the result.
+</details>
 
 * * *
 
@@ -494,10 +519,12 @@ function resetBall(
 1.  What does the `-` operator do when used in front of a number?
 2.  How do you assign a value to a variable?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It inverts the sign of the number, making a positive value negative or vice versa.
 2.  You use the `=` operator to assign a value to a variable.
+</details>
 
 * * *
 
@@ -526,10 +553,12 @@ function render(
 1.  What does `clearRect()` do?
 2.  Why do you need to redraw elements in a game loop?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It clears a specific rectangular area on the canvas.
 2.  To ensure all elements are updated to their current positions.
+</details>
 
 * * *
 
@@ -560,10 +589,12 @@ function gameLoop(
 1.  What is the purpose of `requestAnimationFrame()`?
 2.  Why is a game loop important in game development?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It schedules the next execution of a function before the browser's next repaint.
 2.  To continuously update the game state and render frames for smooth gameplay.
+</details>
 
 * * *
 
@@ -584,9 +615,11 @@ gameLoop();
 
 1.  How do you start a function in JavaScript?
 
-#### **Answer**
+<details>
+<summary>Answers</summary>
 
 1.  By writing the function name followed by parentheses, e.g., `gameLoop()`.
+</details>
 
 * * *
 
@@ -638,10 +671,12 @@ function render(
 1.  How do you increment a variable's value in JavaScript?
 2.  How do you draw text on a canvas?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  By using `variable++` or `variable += value`.
 2.  Using the `fillText()` method.
+</details>
 
 * * *
 
@@ -704,7 +739,8 @@ Enhance the game with additional functionality:
 40.  How do you increment a variable's value in JavaScript?
 41.  How do you draw text on a canvas?
 
-#### **Answers**
+<details>
+<summary>Answers</summary>
 
 1.  It ensures the browser renders the page in standards mode, using the correct HTML version.
 2.  It contains metadata, such as the document's title, character encoding, and links to stylesheets or scripts.
@@ -747,3 +783,4 @@ Enhance the game with additional functionality:
 39.  By writing the function name followed by parentheses, e.g., `gameLoop()`.
 40.  By using `variable++` or `variable += value`.
 41.  Using the `fillText()` method.
+</details>
